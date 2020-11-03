@@ -1,0 +1,22 @@
+$background: #1d3557;
+$text: #f1faee;
+$secondary: #e63946;
+
+html {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: $text;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+@mixin flex($direction, $justify) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    flex-direction: $direction;        
+}
