@@ -1,6 +1,7 @@
 @import 'setup';
 
 body {
+    user-select: none;
     text-align: center;
     background: $background;
     min-height: 100vh;

@@ -12,6 +12,10 @@ html {
 }
 
 body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   text-align: center;
   background: #1d3557;
   min-height: 100vh;
